@@ -22,6 +22,7 @@ public class BasketController {
     @DeleteMapping("delete/{productId}")
     public ResponseEntity<String> deleteById(@PathVariable Long productId){
         basketService.deleteFromBasket(productId);
+        System.out.println("Hello world");
         return ResponseEntity.ok("Product was deleted");
     }
 }
