@@ -1,0 +1,16 @@
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/model/Category.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/repo/BasketRepo.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/repo/CategoryRepository.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/controller/BasketController.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/service/CategoryService.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/exception/ProductNotFoundException.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/OnlineShopBackendApplication.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/model/Product.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/repo/InitialDataRunner.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/controller/CategoryController.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/config/Config.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/repo/ProductRepository.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/service/BasketService.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/service/ProductService.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/model/Basket.java
+/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend/src/main/java/com/devops/onlineshopbackend/controller/ProductController.java

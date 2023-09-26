@@ -16,6 +16,7 @@ import lombok.*;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="product_id")
     private Long id;
     @JsonBackReference
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
@@ -26,5 +27,4 @@ public class Product {
     @Column(length = 65535, columnDefinition = "text")
     private String description;
     private String imageUrl;
-
 }

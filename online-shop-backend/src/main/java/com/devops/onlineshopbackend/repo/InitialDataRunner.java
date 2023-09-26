@@ -1,5 +1,6 @@
 package com.devops.onlineshopbackend.repo;
 
+import com.devops.onlineshopbackend.model.Basket;
 import com.devops.onlineshopbackend.model.Product;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class InitialDataRunner implements CommandLineRunner {
 
     private static final Logger logger = LoggerFactory.getLogger(InitialDataRunner.class);
     private final ProductRepository productRepository;
+    private final BasketRepo basketRepo;
     @Override
     public void run(String... args) throws Exception {
         List<Product> products = new ArrayList<>();

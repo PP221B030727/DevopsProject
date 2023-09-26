@@ -5,12 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45697ac2-32c7-4f3c-b63b-e15deaf46909" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/controller/BasketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/model/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/repo/BasketRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/service/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/OnlineShopBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/OnlineShopBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/exception/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/exception/ProductNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/repo/InitialDataRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/repo/InitialDataRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/repo/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/repo/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devops/onlineshopbackend/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.application 2.properties.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/OnlineShopBackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/OnlineShopBackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/exception/ProductNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/exception/ProductNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/repo/InitialDataRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/repo/InitialDataRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/devops/onlineshopbackend/service/ProductService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -36,24 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nursultanturugeldiev/Desktop/DevopsProject/online-shop-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "5fcaf5b75f94b4913cc3831d4278531c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nursultanturugeldiev/Desktop/Devops/DevopsProject/online-shop-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5fcaf5b75f94b4913cc3831d4278531c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="OnlineShopBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="online-shop-backend" />
@@ -75,7 +111,12 @@
       <workItem from="1694612220891" duration="807000" />
       <workItem from="1694690527262" duration="4000" />
       <workItem from="1694789507735" duration="542000" />
-      <workItem from="1694793087463" duration="715000" />
+      <workItem from="1695282124825" duration="7395000" />
+      <workItem from="1695295152340" duration="728000" />
+      <workItem from="1695445813482" duration="288000" />
+      <workItem from="1695614426200" duration="1866000" />
+      <workItem from="1695713826619" duration="8684000" />
+      <workItem from="1695741097331" duration="598000" />
     </task>
     <servers />
   </component>
