@@ -11,7 +11,6 @@
 	<groupId>com.devops</groupId>
 	<artifactId>online-shop-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>online-shop-backend</name>
 	<description>Demo project for Spring Boot &quot;devops 1&quot; course</description>
 	<properties>
